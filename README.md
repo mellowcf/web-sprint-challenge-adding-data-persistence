@@ -113,6 +113,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+An RDBMS is a Relational Database Management System. It is the database software itself, which manages storage, querying, updating, and, well, everything. Specifically, an RDBMS uses a relational model of data, as the name suggests.  SQL, the Structured Query Language, is a language (or a family of closely related languages or dialects) which is typically used to query the RDBMS.
 2. Why do tables need a Primary Key?
+Each database table needs a primary key because it ensures row-level accessibility. The values that compose a primary key column are unique; no two values are the same. Each table has one and only one primary key, which can consist of one or many columns. A concatenated primary key comprises two or more columns.
 3. What is the name given to a table column that references the Primary Key on another table?
+A foreign key
 4. What do we need in order to have a _many to many_ relationship between two tables?
+When you need to establish a many-to-many relationship between two or more tables, the simplest way is to use a Junction Table. A Junction table in a database, also referred to as a Bridge table or Associative Table, bridges the tables together by referencing the primary keys of each data table
